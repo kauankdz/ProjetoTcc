@@ -1,0 +1,104 @@
+body{
+    margin: 0; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background:#05011B;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.left-login{
+     width: 40vw;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items:center;
+     flex-direction: column;
+     margin-right: 500px;
+}
+.left-login > h1{ 
+   color:rgb(129, 190, 248);
+}
+.rigth-login{
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-login{
+    height: 79vh;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    padding: 5px 30px;
+    background: #000512;;
+    border-radius: 60px;
+    box-shadow: 0px 6px 30px #044785;
+}
+.card-login > h1 {
+    color: rgb(129, 190, 248);
+    font-weight: 800;
+    margin-top: 70px;
+}
+.textfield{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+.textfield > input {
+    width: 100%;
+    border: nome;
+    border-radius: 60px;
+    padding: 10px;
+    background: #6F9FCB;
+    color: rgb(221, 219, 219);
+    font-size: 11pt;
+    box-shadow: 0px 2px 10px #044785;
+    outline: nome;
+    box-sizing: border-box;
+}
+.textfield > label {
+    color:rgb(228, 228, 228);
+    margin-bottom: 10px;
+}
+.textfield > input::placeholder{
+    color:rgb(2, 2, 2);
+}
+.btn-login{
+    width: 100px;
+    padding: 16px 0px;
+    margin:30px;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #272727;
+    background: rgb(129, 190, 248);
+    cursor: pointer;
+    box-shadow: 0px 6px 10px -3px #044785;
+}
+ h1 {
+    color:rgb(129, 190, 248);
+    font-weight: 800;
+    margin: 0;
+}
+
+
+svg{
+    color: white;
+   margin-left: 60px;    
+   margin-bottom: 49px;
+   
+}
+
+

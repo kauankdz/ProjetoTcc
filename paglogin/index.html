@@ -2,46 +2,47 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de login</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
- <!-- Incluindo a biblioteca do Bootstrap do CDN -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" integrity="sha512-abc123" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    
-
-    <title>OptEasy</title>
-    <link rel="icon" type="image/png" href="img/camaleao.png"/>
 </head>
 <body>
-    
-    <div class="main-login">
-        <div class="right-login"></div>
-            <h1></h1>
-           
-        <div class="right-login"></div>
+  <div class="card rounded">
+  <div class="card" style="width:25rem;">
+    <div class="card-body">
+      <h5 class="card-title">Login</h5>
+      <h6 class="card-subtitle mb-2 text-body-secondary"></h6>
 
-     <div class="left-login">
-         <div class="card-login"> 
-            <h1></h1>
-            <div class="textfield">
-                
-                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
-                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
-                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
-                  </svg>
-
-               <label for="usuario">Usuário </label>    
-               <input type="text" name="usuario" placeholder="Usuário">
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-6">
+                <h2 class="text-center mb-4"></h2>
+                <form>
+                    <div class="form-group">
+                        <label for="username">Usuário:</label>
+                        <input type="text" class="form-control" id="username" placeholder="Digite seu usuário">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Senha:</label>
+                        <input type="password" class="form-control" id="password" placeholder="Digite sua senha">
+                    </div>
+                    <div class="form-group text-center">
+                        <button type="submit" class="btn btn-primary">Entrar</button>
+                    </div>
+                </form>
             </div>
-            <div class="textfield"> 
-                 <label for="senha">Senha </label>    
-                 <input type="passorwd" name="senha" placeholder="Senha">
-             </div>  
-                <button class="btn-login">Entrar</button>
-          </div> 
         </div>
-     </div>
+    </div>
+    </div>
+
   </div>
+</div>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
